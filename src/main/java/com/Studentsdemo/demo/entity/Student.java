@@ -16,8 +16,7 @@ public class Student {
     @Column(name = "email")
     private String email;
 
-    public Student(Long id, String firstName, String lastName, String email) {
-        this.id = id;
+    public Student(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
